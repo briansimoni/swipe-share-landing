@@ -6,46 +6,18 @@ html {
 }
 body {
     /* Margin bottom by footer height */
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 60px;
+    height: 80px;
     background-color: #f5f5f5;
 }
 
-
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
-
-/*body > .container {*/
-    /*padding: 60px 15px 0;*/
-/*}*/
-/*.container .text-muted {*/
-    /*margin: 20px 0;*/
-/*}*/
-
-/*.footer > .container {*/
-    /*padding-right: 15px;*/
-    /*padding-left: 15px;*/
-/*}*/
-
-/*code {*/
-    /*font-size: 80%;*/
-/*}*/
-
-
-
-
-/* my css */
-
-/*#begin {*/
-    /*padding-top: 120px;*/
-/*}*/
+/* Swipe Share Css */
 
 #orange-background-wrapper {
     background: url('../SSAssets/background.png') center center fixed;
@@ -62,8 +34,6 @@ body {
     }
 }
 
-
-
 .navbar-default {
     background-color: initial;
     border-color: initial;
@@ -73,9 +43,13 @@ body {
     border: none;
 }
 
+.navbar .navbar-header {
+    margin-left: 25px;
+}
+
 nav.navbar.navbar-default {
-    border-bottom: none;
-    padding-top: 30px;
+    border: none;
+    padding-top: 20px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -117,6 +91,12 @@ input[type="text"] {
     position: relative;
 }
 
+@media(max-width: 768px) {
+    #email-collection-form {
+        margin-bottom: 50px;
+    }
+}
+
 .glyphicon-arrow-right {
     position: absolute;
     right: 15%;
@@ -128,8 +108,32 @@ input[type="text"] {
     text-align: center;
 }
 
+.section-two {
+    margin-bottom: 50px;
+}
+
+#who-we-are-text, #how-it-works-text {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 @media (min-width: 992px) {
     #who-we-are-text, #how-it-works-text {
         margin-top: 35%;
     }
+}
+
+
+footer {
+    background: url('../SSAssets/background.png') center center fixed;
+    background-size: 100%;
+    color: white;
+}
+
+footer img {
+    float: right;
+    width: 45px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
