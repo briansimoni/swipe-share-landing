@@ -1,10 +1,5 @@
 <?php
 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
-
 $servername = "localhost";
 $username = "swipe-share";
 $password = "-w-Ln`%7V52kSRzE";
@@ -32,4 +27,6 @@ $stmt->execute();
 
 $conn->close();
 
-echo "Thanks for submitting {$email}";
+// Redirect user to let them know it was successful
+header("Location: https://swipeshareapp.com/?submission=success");
+die();
