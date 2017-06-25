@@ -18,7 +18,7 @@ $stmt->bind_param("s", $email);
 // set parameters and execute
 
 $email = $_POST["email"];
-if(!filter_var(email, FILTER_VALIDATE_EMAIL)) {
+if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     die("Invalid email submitted: ({$email})");
 }
 
