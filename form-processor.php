@@ -18,7 +18,7 @@ if ($conn->connect_error) {
 }
 
 // Prepared statement
-$stmt = $conn->prepare("INSERT INTO emails (email) VALUES (?)");
+$stmt = $conn->prepare("INSERT INTO swipeshare.emails (email) VALUES (?)");
 $stmt->bind_param("s", $email);
 
 // set parameters and execute
