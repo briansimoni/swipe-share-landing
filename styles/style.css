@@ -103,6 +103,7 @@ input[type="email"] {
     right: 15%;
     top:12px;
     color: gray;
+    cursor: pointer;
 }
 
 .section-one, .section-two {
