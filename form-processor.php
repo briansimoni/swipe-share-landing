@@ -10,4 +10,15 @@ $conn = new mysqli($servername, $username, $password);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-echo "Connected successfully";
+
+$stmt = $conn->prepare("INSERT INTO emails (email) VALUES (?)");
+$stmt->bind_param("s", $email);
+
+// set parameters and execute
+
+$email = $_POST["email"];
+$stmt->execute();
+
+$conn->close();
+
+echo "Thanks for submitting {$email}";
