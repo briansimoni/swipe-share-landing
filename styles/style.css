@@ -20,7 +20,7 @@ body {
 /* Swipe Share Css */
 
 #orange-background-wrapper {
-    background: url('../SSAssets/background.png') center center fixed;
+    background: url('../SSAssets/background@2x.png') center center fixed;
     background-size: 100%;
     color: white;
 }
@@ -28,7 +28,7 @@ body {
 @media(min-width: 991px) {
 
     #orange-background-wrapper {
-        background: url('../SSAssets/background.png') no-repeat;
+        background: url('../SSAssets/background@2x.png') no-repeat;
         background-size: 100%;
         color: white;
     }
