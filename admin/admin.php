@@ -43,11 +43,7 @@ $result = $conn->query($sql);
 
     <ol>
     <?php while($row = $result->fetch_assoc()) { ?>
-
         <?php echo "<li>" . $row["email"] . "</li>" ?>
-        <?php echo "<br />" ?>
-
-
     <?php } ?>
     </ol>
 <?php } ?>
