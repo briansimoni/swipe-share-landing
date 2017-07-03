@@ -44,7 +44,7 @@ $result = $conn->query($sql);
     <ol>
     <?php while($row = $result->fetch_assoc()) { ?>
 
-        <?php echo "<td>" . $row["email"] . "</td>" ?>
+        <?php echo "<li>" . $row["email"] . "</li>" ?>
         <?php echo "<br />" ?>
 
 
