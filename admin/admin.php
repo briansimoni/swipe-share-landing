@@ -44,14 +44,13 @@ $result = $conn->query($sql);
     <ol>
     <?php while($row = $result->fetch_assoc()) { ?>
 
-        <td><?php echo $row["email"] ?></td>
-        <br />
+        <?php echo "<td>" . $row["email"] . "</td>" ?>
+        <?php echo "<br />" ?>
 
 
     <?php } ?>
+    </ol>
 <?php } ?>
 <?php $conn->close(); ?>
-
-    </ol>
 
 </body>
