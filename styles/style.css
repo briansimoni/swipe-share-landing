@@ -4,10 +4,12 @@ html {
     position: relative;
     min-height: 100%;
 }
+
 body {
     /* Margin bottom by footer height */
     margin-bottom: 80px;
 }
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -21,11 +23,11 @@ body {
 
 #orange-background-wrapper {
     background: url('../SSAssets/background@2x.png') center center fixed;
-    background-size: 100%;
     color: white;
+    background-size: cover;
 }
 
-@media(min-width: 991px) {
+@media (min-width: 991px) {
 
     #orange-background-wrapper {
         background: url('../SSAssets/background@2x.png') no-repeat;
@@ -52,7 +54,7 @@ nav.navbar.navbar-default {
     padding-top: 20px;
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
     color: white;
 }
 
@@ -62,6 +64,10 @@ nav.navbar.navbar-default {
 
 .nav-bar-default > .container {
     padding-top: 10px;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
 }
 
 #logo-image {
@@ -92,7 +98,7 @@ input[type="email"] {
     position: relative;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
     #email-collection-form {
         margin-bottom: 50px;
     }
@@ -101,7 +107,7 @@ input[type="email"] {
 .glyphicon-arrow-right {
     position: absolute;
     right: 15%;
-    top:12px;
+    top: 12px;
     color: gray;
     cursor: pointer;
 }
@@ -129,7 +135,6 @@ input[type="email"] {
         margin-top: 35%;
     }
 }
-
 
 footer {
     background: url('../SSAssets/background.png') center center fixed;
