@@ -1,3 +1,5 @@
 .idea
 swipe-share-landing.iml
 config.php
+node_modules
+.DS_Store

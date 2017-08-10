@@ -12,6 +12,7 @@
     <link rel="icon" href="../../favicon.ico">
     <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
 
     <title>Swipe Share App</title>
 </head>
@@ -71,7 +72,7 @@
 
 <div class="container">
     <div class="row section-one">
-        <a name="about"/>
+        <a id="about"></a>
         <div class="col-md-6">
             <div id="how-it-works-text">
                 <h2>How it Works</h2>
@@ -85,7 +86,7 @@
 
 
     <div class="row section-two">
-        <a name="contact"/>
+        <a id="contact"></a>
         <div class="col-md-6 col-md-push-6">
             <div id="who-we-are-text">
                 <h2>Who we Are</h2>
@@ -110,6 +111,26 @@
     </div>
 </div>
 
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 id="coming-soon-message">Coming to Virginia Universities in Spring 2018</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="owl-carousel owl-theme">
+                <div> <img src="college-logos/VCU_Rams.png"> </div>
+                <div> <img src="college-logos/2000px-Virginia_Tech_Hokies_logo.svg.png"> </div>
+                <div> <img src="college-logos/George_Mason_University_logo.svg.png"> </div>
+                <div> <img src="college-logos/James_Madison_University_Athletics_logo.svg.png"> </div>
+                <div> <img src="college-logos/University_of_Richmond_logo.png"> </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <footer class="footer">
     <div class="container">
         <img src="SSAssets/FacebookLogo.png">
@@ -120,6 +141,7 @@
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
 <script src="js/home.js"></script>
 </body>
 </html>

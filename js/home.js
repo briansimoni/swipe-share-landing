@@ -8,3 +8,7 @@ var url = new URL(window.location.href);
 if(url.searchParams.get("submission") === "success") {
     $('#submission-message').toggle();
 }
+
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({loop: true});
+});

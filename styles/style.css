@@ -136,6 +136,14 @@ input[type="email"] {
     }
 }
 
+#coming-soon-message {
+    text-align: center;
+}
+
+.owl-item > div {
+    padding: 50px
+}
+
 footer {
     background: url('../SSAssets/background.png') center center fixed;
     background-size: 100%;
