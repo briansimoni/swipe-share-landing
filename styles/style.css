@@ -131,8 +131,12 @@ input[type="email"] {
 }
 
 @media (min-width: 992px) {
-    #who-we-are-text, #how-it-works-text {
-        margin-top: 35%;
+    #how-it-works-text {
+        margin-top: 20%;
+    }
+
+    #who-we-are-text {
+        margin-top: 30%
     }
 }
 
