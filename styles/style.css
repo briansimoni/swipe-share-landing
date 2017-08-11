@@ -36,6 +36,11 @@ body {
     }
 }
 
+/* Override the bootstrap setting */
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: white;
+}
+
 .navbar-default {
     background-color: initial;
     border-color: initial;
